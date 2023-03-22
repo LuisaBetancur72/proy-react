@@ -9,8 +9,6 @@ export const MenuSider = (props) => {
     const {Sider} = Layout;
     const location = useLocation();
     const navigate = useNavigate();
-
-
     const menuItems=[
         {key:"/admin/users",
         icon:<UserOutlined />,
@@ -21,7 +19,6 @@ export const MenuSider = (props) => {
         label:<span className='navar-text'>Products</span>
         },
     ];
-
     const menuClick=(e) =>{
         const path = e.key;
         console.log("Di clic en el menu" + path);
