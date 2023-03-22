@@ -24,15 +24,17 @@ export const MenuSider = (props) => {
 
     const menuClick=(e) =>{
         const path = e.key;
-        console.log("Di clic en el menu" + path)};
+        console.log("Di clic en el menu" + path);
         navigate(path);
-  return (
-    <Sider className='menu-sider' collapsed= {props.menuCollapsed}>
-        <Menu>
-            mode="inline"
-            defaultSelectedKeys={[location.pathname]}
-            items={menuItems}
-        </Menu>
-    </Sider>
-  )
-}
+    
+        return (
+        <Sider className='menu-sider' collapsed= {props.menuCollapsed}>
+            <Menu>
+                mode="inline"
+                defaultSelectedKeys={[location.pathname]}
+                items={menuItems}
+            </Menu>
+        </Sider>
+        )
+    };
+};
