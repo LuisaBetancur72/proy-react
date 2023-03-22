@@ -24,8 +24,9 @@ export const MenuSider = (props) => {
 
     const menuClick=(e) =>{
         const path = e.key;
-        console.log("Di clic en el menu" + path)};
+        console.log("Di clic en el menu" + path);
         navigate(path);
+    }
   return (
     <Sider className='menu-sider' collapsed= {props.menuCollapsed}>
         <Menu>
