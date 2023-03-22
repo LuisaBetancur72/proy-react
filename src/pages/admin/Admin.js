@@ -1,5 +1,4 @@
 /*siempre usar rafc*/
-
 import React from 'react'
 
 export const Admin = () => {
