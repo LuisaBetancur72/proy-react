@@ -1,0 +1,2 @@
+export {defauklt} from './Admin';
+
