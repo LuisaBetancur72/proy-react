@@ -17,7 +17,7 @@ export const MenuSider = (props) => {
         {key:"/admin/products",
         icon:<OrderedListOutlined />,
         label:<span className='navar-text'>Products</span>
-        },
+        }
     ];
     const menuClick=(e) =>{
         const path = e.key;
@@ -33,5 +33,4 @@ export const MenuSider = (props) => {
             </Menu>
         </Sider>
         )
-    };
 };
