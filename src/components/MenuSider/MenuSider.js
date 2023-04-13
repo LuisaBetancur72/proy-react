@@ -33,5 +33,4 @@ export const MenuSider = (props) => {
             </Menu>
         </Sider>
         )
-        };
 };
